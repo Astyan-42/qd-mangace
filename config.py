@@ -4,11 +4,11 @@
 import os
 
 """ directory where chapter are """
-dirchapter = os.path.join("/","home","astyan","Bureau","beel2","chapitres")
+dirchapter = os.path.join("/","path","to","dirchapter")
 """ directory where book are and should be create """
-dirbook = os.path.join("/","home","astyan","Bureau","beel2","tomes")
+dirbook = os.path.join("/","path","to","dirbook")
 """ directory where create the zip/mobi files"""
-dirzip = os.path.join("/","home","astyan","Bureau","beel2","beelzebubzip")
+dirzip = os.path.join("/","path","to","dirzip")
 
 """ width and hight of the device """
 resebook = (600, 800)
