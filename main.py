@@ -5,7 +5,7 @@ import sys
 
 from classes.chapterstobook import chapterstobook
 from classes.resize import resize
-from classes.zipmobi import zipmobi
+from classes.zipcbz import zipcbz
 
 if __name__ == '__main__':
     
@@ -19,7 +19,7 @@ if __name__ == '__main__':
         r.allscale()
     
     if "z" in sys.argv:
-        z = zipmobi()
+        z = zipcbz()
         z.zipall()
     
     if len(sys.argv) == 1:

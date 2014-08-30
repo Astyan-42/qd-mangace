@@ -10,7 +10,7 @@ sys.path[:0] = ['../']
 
 import config
 
-class zipmobi:
+class zipcbz:
     
     def init(self):
         pass
